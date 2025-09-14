@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bankOptions</class>
+ <widget class="QDialog" name="bankOptions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: #000000;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="txtMQBankTitle">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Naskh Arabic Semi Bold</family>
+     <pointsize>25</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+color: cyan;
+}</string>
+   </property>
+   <property name="text">
+    <string>MQ Bank</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCurrentBalance">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>120</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white;
+	border: none;
+border-bottom: 2px solid rgb(237, 51, 59);
+border-radius: 8px;
+
+}
+
+QMessageBox {
+color: white;
+background-color: black;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Current Balance</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDeposit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Naskh Arabic Semi Bold</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: none; /* Removes all borders */
+    border-bottom: 2px solid cyan;/* Bottom border */
+    border-right: 2px solid cyan; /* Right border */
+    color: white; /* Text color */
+    background-color: transparent; /* Transparent background */
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px; /* Optional rounded corners */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Deposit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnWithdraw">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>310</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Naskh Arabic Semi Bold</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: none; /* Removes all borders */
+    border-bottom: 2px solid cyan;/* Bottom border */
+    border-right: 2px solid cyan; /* Right border */
+    color: white; /* Text color */
+    background-color: transparent; /* Transparent background */
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px; /* Optional rounded corners */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Withdraw</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLogOut">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>590</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: transparent;
+border-top: 2px solid rgb(119, 118, 123);
+border-left: 2px solid rgb(119, 118, 123);
+color: white;
+border-radius: 4px;
+}</string>
+   </property>
+   <property name="text">
+    <string>LOG OUT</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

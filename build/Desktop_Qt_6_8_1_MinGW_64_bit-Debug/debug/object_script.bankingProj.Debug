@@ -1,0 +1,13 @@
+debug/bankoptions.o
+debug/deposit.o
+debug/login.o
+debug/main.o
+debug/mainmenu.o
+debug/registration.o
+debug/withdraw.o
+debug/moc_bankoptions.o
+debug/moc_deposit.o
+debug/moc_login.o
+debug/moc_mainmenu.o
+debug/moc_registration.o
+debug/moc_withdraw.o

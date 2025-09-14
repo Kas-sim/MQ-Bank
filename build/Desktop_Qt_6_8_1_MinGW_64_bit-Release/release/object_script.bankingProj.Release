@@ -1,0 +1,13 @@
+release/bankoptions.o
+release/deposit.o
+release/login.o
+release/main.o
+release/mainmenu.o
+release/registration.o
+release/withdraw.o
+release/moc_bankoptions.o
+release/moc_deposit.o
+release/moc_login.o
+release/moc_mainmenu.o
+release/moc_registration.o
+release/moc_withdraw.o
