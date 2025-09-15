@@ -16,6 +16,12 @@ A desktop banking application built with **C++** and the **Qt framework**, featu
 
 ---
 
+## Demo  
+- Demo is available on Linkedin  
+- https://tinyurl.com/mqbank
+
+---
+
 ## Getting the Source
  
  git clone https://github.com/Kas-sim/MQ-Bank.git
@@ -25,3 +31,4 @@ A desktop banking application built with **C++** and the **Qt framework**, featu
 -  Open the directory where you have saved
 -  Open `.pro` folder - it will open in QT Creator
 -  Run and enjoy ;)  
+
